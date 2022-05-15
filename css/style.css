@@ -1,0 +1,357 @@
+
+.header_nav{
+    display: flex;
+   
+}
+
+.header_nav_list{
+    display: flex;
+    right: 0;
+    margin: 0 0 0 auto;
+    /* text-align: right; */
+}
+li.nav_item{
+    /* display: flex; */
+    padding: 16px;
+    text-align: center;
+    list-style: none; 
+    font-size: 13px;
+}
+.nav_item_account_open{
+    list-style: none;
+    padding: 16px;
+}
+
+.account_open_img{
+    margin:70px;
+}
+
+section{
+    margin: 100px 0;
+    text-align: center;
+
+}
+.present_point{
+    margin-top: 30px;
+}
+
+.section_title{
+    margin-bottom: 50px;
+}
+
+.quick{
+    background-image: url(../img/quick_bg.svg);
+    padding: 50px 0;
+}
+
+.quick_img{
+    margin-bottom: 70px;
+}
+
+.trade_tools{
+    padding-bottom: 80px;
+}
+
+.trade_tools_text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.trade_description{
+    display: flex;
+}
+.st_mode{
+    padding-left: 25%;
+    padding-right:25%;
+}
+
+.st_mode_page{
+    background-image: url(../img/speedy_bg-01.png);
+}
+
+.st_title, .ex_title{
+    padding-bottom: 30px;
+}
+
+.st_feature , .ex_feature{
+    display: flex;
+    justify-content: center;
+   
+    width: 100%;
+}
+.feature_text{
+    margin: 10px;
+}
+
+.st_discription, .ex_discription{
+    padding: 20% 0;
+    
+}
+
+.ex_discription_width{
+    padding-top: 7%;
+    padding-left: 15px;
+}
+
+.feature{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.unique_bitmatch_feature{
+    
+    
+    background-image: url(../img/BitMatch_logomark.svg);
+    background-position: center;
+    background-size:cover;
+    padding: 70px;
+   
+ 
+}
+
+.unique_feature_text{
+    padding: 70px;
+    text-align: left;
+    justify-content: center;
+}
+
+.bitmatch_catch{
+    text-align: left;
+}
+
+.bitmatch_discription{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.bitmatch_link{
+    margin:30px;
+    font-size: 30px;
+    
+}
+.bitmatch_textlink{
+    color: black;
+}
+.notice_item{
+    text-align: left;
+    list-style: none;
+}
+
+.bitmatch_notice{
+    display: inline-block;
+    
+}
+.bitmatch_img_left{
+    right: 0;
+}
+.bitmatch_image{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+/* commission */
+.commission_discription{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.commission_text_img{
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+/* .commission_img{
+   
+    
+} */
+.commission_yen_img{
+   position:absolute;;
+   bottom: 0;
+   right: 0;
+}
+
+/* cryptoAssets */
+.cryptoAssets_content{
+    background-image: url(../img/cryptoasset_bg.svg);
+    padding-bottom: 70px;
+}
+.cryptoAssets_text_img{
+    margin-bottom: 30px;
+}
+
+.cryptoAssets_list{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    
+}
+
+.cryptoAssets_coin_list{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    align-items:stretch;
+    list-style: none; 
+   
+}
+
+.cash_trade{
+    margin: 30px;
+   width: 100%;
+   height: 100%;
+  
+   
+}
+.revarage_trade{
+    margin: 30px;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.cryptoAssets_coin_item{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+
+.trust_text_img{
+    margin: 50px;
+}
+
+.trust_discription{
+    background-image: url(../img/trust_bg.svg);
+    background-position: center;
+    background-size:cover;
+    padding: 70px;
+   
+}
+
+/* .account_step{
+    display: flex;
+    justify-content: center;
+} */
+
+.account_step_img{
+    width: 100%;
+    height: 100%;
+}
+
+.account_step{
+    display: flex;
+    justify-content: center;
+}
+
+.account_content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inquiry_form{
+    margin: 30px;
+}
+
+.inquiry_content{
+    position: relative;
+    text-align: center;
+}
+.support_text_img2{
+    position:absolute;;
+    bottom: 0;
+    right: 25;
+}
+
+.line_inquiry_img{
+    margin: 30px;
+}
+
+.line_inquiry_text{
+    margin: 30px;
+    text-align: left;
+}
+.line_icon{
+    margin-right: 20px;
+}
+
+
+.line_inquiry{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.line_register{
+    display: flex;
+    /* justify-content: center; */
+    text-align: left;
+   
+}
+.left_text{
+    text-align: left;
+}
+.line_append_text{
+    margin: 25px; 
+}
+.line_friend_append{
+    font-size: 20px;
+}
+.line_id{
+    font-size: 32px;
+}
+.line_qr{
+    text-align: right;
+    
+}
+.line_inquiry_btn{
+    display: inline-block;
+    justify-content: center;
+    width: 530px;
+    height:64px;
+    margin: 30px;
+    font-size: 24px;
+    background-color: yellowgreen;
+    
+}
+.line_inquiry_btn_link{
+    color: white;
+    line-height: 60px;
+}
+
+
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 30px 0;
+}
+.footer_title{
+    margin: 25px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.footer_trader_notice_list{
+    text-align: left;
+    border: solid 1px white;
+    margin: 30px 0;
+}
+
+.footer_link{
+    
+    color: white;
+}
+
+.footer_use_notice_title{
+    margin:25px 0;
+}
+.footer_trade_notice_title{
+    font-size: 12px;
+    margin: 25px;
+}
+
