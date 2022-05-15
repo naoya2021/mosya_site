@@ -143,14 +143,13 @@ section{
     display: inline-block;
     
 }
-.bitmatch_img_left{
-    right: 0;
-}
+
 .bitmatch_image{
     display: flex;
     justify-content: center;
     margin: 50px;
 }
+
 
 /* commission */
 .commission_discription{
@@ -171,7 +170,8 @@ section{
 .commission_yen_img{
    position:absolute;;
    bottom: 0;
-   right: 0;
+   margin: 0 30px;
+   right: 35;
 }
 
 /* cryptoAssets */
@@ -219,15 +219,19 @@ section{
     margin-top: 15px;
 }
 
-
+.trust_text{
+    font-size: 20px;
+}
 .trust_text_img{
     margin: 50px;
 }
-
-.trust_discription{
+.trust{
     background-image: url(../img/trust_bg.svg);
     background-position: center;
     background-size:cover;
+}
+.trust_discription{
+    
     padding: 70px;
    
 }
@@ -252,22 +256,45 @@ section{
     margin-bottom: 30px;
 }
 
+.support{
+    background-color: #f5f5f5;
+    padding: 150px;
+}
+
 .inquiry_form{
     margin: 30px;
+    background-color: white;
+    padding: 30px;
+    border: solid 1px black;
+    border-radius: 20px;
+   
+    
+}
+
+.inquiry_form_link{
+    font-size: 30px;
+    color: black;
+    padding: 0;
+   
 }
 
 .inquiry_content{
-    position: relative;
+    display: flex;
+    /* position: relative; */
     text-align: center;
+    justify-content: center;
+    padding: 50px;
+    
 }
 .support_text_img2{
-    position:absolute;;
-    bottom: 0;
-    right: 25;
+    
+    /* position:absolute;; */
+    margin-left: 40px;
+    margin-top: 60px;
 }
 
-.line_inquiry_img{
-    margin: 30px;
+.line_title{
+   padding-bottom: 25px;
 }
 
 .line_inquiry_text{
@@ -282,7 +309,7 @@ section{
 .line_inquiry{
     display: flex;
     justify-content: center;
-   
+    margin: 50px;
 }
 
 .line_register{
@@ -299,13 +326,15 @@ section{
 }
 .line_friend_append{
     font-size: 20px;
+    margin: 0;
 }
 .line_id{
     font-size: 32px;
+    margin: 0;
 }
 .line_qr{
     text-align: right;
-    
+    bottom: 0;
 }
 .line_inquiry_btn{
     display: inline-block;
